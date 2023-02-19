@@ -7,7 +7,7 @@ Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/validators-feedstock/blob/main/LICENSE.txt)
 
-Summary: Python Data Validation for Humans
+Summary: Python Data Validation for Humans™.
 
 Development: https://github.com/kvesteri/validators
 
@@ -153,4 +153,5 @@ Feedstock Maintainers
 =====================
 
 * [@brl0](https://github.com/brl0/)
+* [@xylar](https://github.com/xylar/)
 
