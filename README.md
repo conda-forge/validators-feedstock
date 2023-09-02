@@ -7,7 +7,7 @@ Home: https://github.com/kvesteri/validators
 
 Package license: MIT
 
-Summary: Python Data Validation for Humans™.
+Summary: Python Data Validation for Humans™
 
 Development: https://github.com/kvesteri/validators
 
