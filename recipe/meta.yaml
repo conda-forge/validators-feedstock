@@ -1,5 +1,5 @@
 {% set name = "validators" %}
-{% set version = "0.22.0" %}
+{% set version = "0.23.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/validators-{{ version }}.tar.gz
-  sha256: 77b2689b172eeeb600d9605ab86194641670cdb73b60afd577142a9397873370
+  sha256: 4b413f191646329cc3de65d7e54dcdffccada6301ca11d7a7e45f7b163c6ce6f
 
 build:
   noarch: python
@@ -17,7 +17,7 @@ build:
 requirements:
   host:
     - python >=3.8
-    - setuptools >=61
+    - setuptools
     - pip
   run:
     - python >=3.8
@@ -35,7 +35,7 @@ about:
   summary: Python Data Validation for Humans™
   license: MIT
   license_family: MIT
-  license_file: LICENSE
+  license_file: LICENSE.txt
   description: |
     Python data validation for Humans.
 
