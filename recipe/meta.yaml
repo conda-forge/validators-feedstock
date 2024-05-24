@@ -1,5 +1,5 @@
 {% set name = "validators" %}
-{% set version = "0.28.1" %}
+{% set version = "0.28.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/validators-{{ version }}.tar.gz
-  sha256: 5ac88e7916c3405f0ce38ac2ac82a477fcf4d90dbbeddd04c8193171fc17f7dc
+  sha256: 8c440474291f62bd93fdbb16db125d93b0522ca89e088d8ad8be1f91e651f566
 
 build:
   noarch: python
